@@ -28,7 +28,7 @@ $(function(){
       if(hora>=12){
         hora = hora - 12;
         ampm = "PM";
-      }else{
+        }else{
         ampm = "AM";
       }
       if(hora == 0){
